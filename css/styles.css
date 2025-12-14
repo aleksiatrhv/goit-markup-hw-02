@@ -28,6 +28,7 @@ body {
     border-radius: 4px;
     font-size: 16px;
     font-style: normal;
+    font-family: var(--font-stack);
     font-weight: 500;
     line-height: 1.5;
     cursor: pointer;
@@ -185,4 +186,8 @@ body {
 .footer p {
     margin: 16px 0 0;
     color: var(--cloud-color);
+}
+
+.lh-fix {
+    line-height: 1.2;
 }
