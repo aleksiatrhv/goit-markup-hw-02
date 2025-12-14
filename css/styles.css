@@ -25,7 +25,6 @@ body {
 .button {
     background-color: var(--iris-color);
     color: var(--white-color);
-    border-radius: 4px;
     font-size: 16px;
     font-style: normal;
     font-family: var(--font-stack);
@@ -142,7 +141,6 @@ body {
     list-style: none;
     margin: 72px 0 0;
 }
-
 
 .cloud {
     background-color: var(--cloud-color);
