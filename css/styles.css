@@ -6,13 +6,12 @@
   --white-color: #FFFFFF;
   --cloud-color: #F4F4FD;
   --corner-color: #E7E9FC;
-  --transition-hover: all 0.3s ease-in-out;
   --font-stack: "Roboto", sans-serif;
   --logo-font-stack: "Raleway", sans-serif;
 }
 
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: var(--font-stack);
     font-size: 16px;
     color: var(--slate-color);
     background-color: var(--white-color);
@@ -47,7 +46,6 @@ body {
     letter-spacing: 0.72px;
     color: var(--primary-color);
     margin-bottom: 24px;
-    text-align: center;
 }
 
 .text {
@@ -76,7 +74,6 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--iris-color);
-    text-decoration: none;
 }
 
 .logotype .alt {
@@ -90,7 +87,6 @@ body {
 
 .header-contacts li a,
 .header-menu li a {
-    text-decoration: none;
     color: var(--primary-color);
     font-weight: 500;
     font-size: 16px;
@@ -119,7 +115,6 @@ body {
 }
 
 .header-contacts {
-    list-style: none;
     margin: 0;
 }
 
@@ -130,7 +125,6 @@ body {
 .hero h1 {
     margin: 0 0 48px;
     color: var(--white-color);
-    text-align: center;
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
@@ -146,23 +140,16 @@ body {
     background-color: var(--cloud-color);
 }
 
-.portfolio-list,
-.team-list {
-    list-style: none;
-}
-
 .team-list li {
     background-color: var(--white-color);
 }
 
 .team-list li h3.sub-title {
     margin: 32px 0 8px;
-    text-align: center;
 }
 
 .team-list li p.text {
     margin: 0 0 32px;
-    text-align: center;
 }
 
 .portfolio-list li h3.sub-title {
