@@ -7,7 +7,6 @@
   --cloud-color: #F4F4FD;
   --corner-color: #E7E9FC;
   --transition-hover: all 0.3s ease-in-out;
-  --max-width: 1470px;
   --font-stack: "Roboto", sans-serif;
   --logo-font-stack: "Raleway", sans-serif;
 }
@@ -43,7 +42,8 @@ body {
 .title-secondary {
     font-size: 36px;
     font-weight: 700;
-    line-height: 1;
+    line-height: 1.2;
+    text-transform: capitalize;
     letter-spacing: 0.72px;
     color: var(--primary-color);
     margin-bottom: 24px;
