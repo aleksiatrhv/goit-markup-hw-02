@@ -75,17 +75,17 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--slate-color);
+    color: var(--iris-color);
     text-decoration: none;
 }
 
-.logotype .blue {
-    color: var(--iris-color);
+.logotype .alt {
+    color: var(--primary-color);
 }
 
 .logotype:focus,
 .logotype:hover {
-    color: var(--iris-color);
+    color: var(--primary-color);
 }
 
 .header-contacts li a,
@@ -178,7 +178,7 @@ body {
     background-color: var(--primary-color);
 }
 
-.footer .logotype {
+.footer .logotype span{
     color: var(--cloud-color);
 }
 
